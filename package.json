@@ -1,0 +1,48 @@
+{
+  "name": "quasar-demo",
+  "version": "0.0.1",
+  "description": "A Quasar application utilizing AWS Amplify services",
+  "productName": "Quasar Demo",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "mfreeman451 <mfreeman451@gmail.com>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "ajv": "^6.10.0",
+    "apollo-link": "^1.2.11",
+    "apollo-link-http": "^1.5.14",
+    "aws-amplify": "^1.1.22",
+    "aws-amplify-vue": "^0.2.7",
+    "aws-appsync": "^1.7.2",
+    "axios": "^0.18.0",
+    "graphql": "^14.2.0",
+    "graphql-tag": "^2.10.1",
+    "quasar": "^1.0.0-beta.0",
+    "vue-apollo": "^3.0.0-beta.28",
+    "vuelidate": "^0.7.4"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0-beta.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^5.0.0",
+    "strip-ansi": "=3.0.1"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ],
+  "resolutions": {
+    "ajv": "6.8.1"
+  }
+}
