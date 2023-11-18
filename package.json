@@ -18,7 +18,7 @@
     "aws-amplify": "^1.1.22",
     "aws-amplify-vue": "^0.2.7",
     "aws-appsync": "^1.7.2",
-    "axios": "^0.18.0",
+    "axios": "^1.6.0",
     "graphql": "^14.2.0",
     "graphql-tag": "^2.10.1",
     "quasar": "^1.0.0-beta.0",
